@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}
