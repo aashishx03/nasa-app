@@ -3,21 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
 
     <title>Nasa App</title>
   </head>
   <body>
     <section class="container">
-      <form action="">
-        <label for="enter">Enter date to check</label>
-        <input type="date" id="enter" value="" />
-      </form>
-      <button class="btn">Check</button>
-      <img src="" alt="" height="500px" width="500px" />
-      <h1>Title</h1>
-      <h4>Explaination</h4>
-      <!-- <h2 class="mars">MarsImage</h2> -->
+      <div class="text">
+        <form action="">
+          <label for="enter">Enter date to check</label>
+          <input type="date" id="enter" value="" />
+        </form>
+        <button class="btn">Check</button>
+      </div>
+      <div class="details">
+        <h1>Title</h1>
+        <div class="image">
+          <img src="" alt="" class="hidden" />
+        </div>
+        <!-- <div class="explanation">
+          <h4 id="expln">Explanation</h4>
+        </div> -->
+      </div>
     </section>
     <script src="/js/script.js"></script>
   </body>
